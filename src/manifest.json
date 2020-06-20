@@ -1,0 +1,39 @@
+{
+  "name": "Youtubeia",
+  "version": "0.1",
+  "description": "Yet another cross browser extension for youtube learners",
+  "permissions": [],
+  "options_page": "options.html",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/images/get_started16.png",
+      "32": "assets/images/get_started32.png",
+      "48": "assets/images/get_started48.png",
+      "128": "assets/images/get_started128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "index.js"
+      ],
+      "matches": [
+        "https://www.youtube.com/watch?v=*"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "assets/images/get_started16.png",
+    "32": "assets/images/get_started32.png",
+    "48": "assets/images/get_started48.png",
+    "128": "assets/images/get_started128.png"
+  },
+  "manifest_version": 2
+}
