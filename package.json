@@ -16,9 +16,6 @@
     "laravel-mix": "^5.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-native-web": "^0.12.3",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.2",
     "vue-template-compiler": "^2.6.11",
     "yarn": "^1.22.4"
   },
@@ -31,6 +28,8 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
-    "react-router-dom": "^5.2.0"
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-icon": "^2.3.3",
+    "semantic-ui-react": "^0.88.2"
   }
 }
