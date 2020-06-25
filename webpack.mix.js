@@ -7,3 +7,4 @@ mix.js('src/background.js', 'dist').
   copy('src/options.html', 'dist').
   copy('src/popup.html', 'dist').
   setPublicPath('dist')
+
